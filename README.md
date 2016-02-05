@@ -4,9 +4,10 @@ This programs implements the differents steps involved in JPEG compression and d
 On each block of 8x8 pixels:
 * Discrete cosine transform
 * Quantization
+
 In the end, values are encoded with the Huffman algorithms. 
 
-The program takes in input a BMP file and produce a compressed binary file with an ".fsjpg" extension.
+The program takes in input a BMP file and produces a compressed binary file (with an ".fsjpg" extension).  
 It can also decompress these binary files and produce a black and white BMP file. 
 
 Compression:
